@@ -3,10 +3,12 @@
 const HOST =  "192.168.0.6";
 const PORT =  8000;
 
-const TOPIC_COVER = "shairport-sync/airplay2/adapter/cover";
-const TOPIC_TITLE = "shairport-sync/airplay2/adapter/title";
-const TOPIC_ARTIST = "shairport-sync/airplay2/adapter/artist";
-const TOPIC_ALBUM = "shairport-sync/airplay2/adapter/album";
+const MQTT_BASE_TOPIC = "shairport-sync/airplay2/adapter/";
+
+const TOPIC_COVER  = MQTT_BASE_TOPIC + "cover";
+const TOPIC_TITLE  = MQTT_BASE_TOPIC + "title";
+const TOPIC_ARTIST = MQTT_BASE_TOPIC + "artist";
+const TOPIC_ALBUM  = MQTT_BASE_TOPIC + "album";
 
 const QOS = 2;
 
