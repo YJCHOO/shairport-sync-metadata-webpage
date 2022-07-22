@@ -16,4 +16,5 @@ MQTT_BASE_TOPIC -> MQTT topic that set in the Shairport-sync configuration file.
 
 ## Dependencies
 - Bootstrap 5.0
+- [Eclipse Paho JavaScript Client](https://www.eclipse.org/paho/index.php?page=clients/js/index.php)
 - [Eclipse Paho JavaScript Client] (https://www.eclipse.org/paho/index.php?page=clients/js/index.php)
