@@ -5,7 +5,7 @@ A webpage to display the song metadata received from shairport-sync over MQTT.
 ## Prerequisite
 - MQTT Broker
 - Using [Shairport-sync](https://github.com/mikebrady/shairport-sync)
-- Enable [MQTT feature](https://github.com/mikebrady/shairport-sync/blob/development/MQTT.md) in Shairport-sync configuration file.
+- Enable [MQTT feature in Shairport-sync](https://github.com/mikebrady/shairport-sync/blob/development/MQTT.md) configuration file.
 
 ## Setup
 Edit this constant variables in metadata-mqtt.js: <br/>
